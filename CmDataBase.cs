@@ -8,7 +8,7 @@ namespace BugTracker
 {
 	class CmDataBase
 	{
-		public void PrintTickets(string sqlQuery) //sqlQuery to DB
+		public void PrintTickets(string sqlQuery)
 		{
 			using (UserContext db = new UserContext())
 			{
